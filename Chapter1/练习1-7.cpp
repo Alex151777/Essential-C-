@@ -10,7 +10,7 @@ int main()
     
     vector<string> str;
     ifstream infile("练习1-7.txt");
-    ofstream outfile("练习1-7_sorted.txt",ios_base::out|ios_base::app);
+    ofstream outfile("练习1-7_sorted.txt",ios_base::app);
 
     if(!infile||!outfile)
     {
@@ -26,7 +26,9 @@ int main()
         for (int index = 0; index < str.size();index++)
             cout << str[index] << ' ';
         cout << endl;
+
         sort(str.begin(), str.end());
+        
         cout << endl << "After sorted: ";
         outfile << endl;
         for (int index = 0; index < str.size();index++)

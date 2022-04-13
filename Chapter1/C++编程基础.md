@@ -4,8 +4,8 @@
 
 ## 1.1 class是什么?  
 
-    class是用户自定义的数据类型(user_defined data type)，增强类型抽象化的层次
-    class定义应分为两部分:
+- class是用户自定义的数据类型(user_defined data type)，增强类型抽象化的层次
+- class定义应分为两部分:
         (1).头文件(header file)——用来声明class的各种操作行为
         (2).代码文件(program text)——包含了操作行为的具体实现
 
